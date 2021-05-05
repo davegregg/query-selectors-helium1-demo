@@ -1,0 +1,109 @@
+body {
+    background: #ccc;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 720px;
+    margin: 3em auto;
+}
+
+/*** header ***/
+
+header {
+    background: #fff;
+    max-width: 320px;
+    padding: 8px 16px;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/*** main nav ***/
+
+ul.nav {
+    background: #fff;
+    margin-top: 60px;
+    font-size: 1.5em;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+/*** main section ***/
+
+main {
+    background: #fff;
+    padding: 32px 32px;
+    margin-top: 3em;
+}
+
+/*** some basic elements ***/
+
+h2 {
+    font-size: lem;
+    font-weight: bold;
+}
+
+a, a:visited, a:hover, a:active {
+    color: hotpink;
+}
+
+p {
+    margin-top: 2em;
+}
+
+code {
+    color: blue;
+    font-family: monospace;
+    background: lightblue;
+}
+
+/*** forms ***/
+
+form {
+    margin: 1em 0;
+    border: #cdcdcd 1px solid;
+    padding: 1em;
+}
+
+form label {
+    display: block;
+    color: #555;
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+form label:first-child {
+    margin-top: 0;
+}
+
+form input[type=text] {
+    margin-top: 0.25em;
+    display: block;
+    min-width: 50%;
+    font-size: 1em;
+    padding: 0.25em 0.5em;
+}
+
+form button {
+    margin-top: 1.5em;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}

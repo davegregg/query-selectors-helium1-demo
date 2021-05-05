@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selectors</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="logo">QUERY SELECTORS</h1>
+        </header>
+
+        <nav>
+            <ul id="main-nav" class="nav">
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors">
+                        Universal
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">
+                        Type
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">
+                        Class
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">
+                        ID
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">
+                        Attribute
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>1. Select me, I'm an &lt;h2&gt;</h2>
+
+            <p id="second">2. Select me, my <code>id="second"</code></p>
+
+            <p class="third">3. Select me, my <code>class="third"</code></p>
+
+            <p>
+                <a href="www.google.com">4. Select me, I'm a link to www.google.com</a>
+            </p>
+
+            <form action="/">
+                <label>Hey there!</label>
+                <input type="text" value="read below">
+
+                <label for="">5.</label>
+                <input type="text" value="select me I'm a text input">
+
+                <label for="">6.</label>
+                <input type="text" value="and me, I'm the last &lt;input&gt; in a &lt;form&gt;" style="width: 60%">
+
+                <button>7. Select me too ✌️</button>
+            </form>
+
+        </main>
+    </div>
+
+</body>
+</html>
