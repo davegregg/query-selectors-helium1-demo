@@ -1,5 +1,5 @@
 body {
-    background: #ccc;
+    background: rebeccapurple;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
@@ -106,4 +106,9 @@ form button {
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
+}
+
+.dark-mode {
+    color: "white";
+    background-color: "black";
 }
